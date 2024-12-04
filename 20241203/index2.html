@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table, th, td{
+            border: 2px solid;
+        }
+        #c{
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <table>
+            <tr>
+                <th colspan="2">Report Form</th>
+            </tr>
+            <tr>
+                <th id="c" colspan="2">Information Table</th>
+            </tr>
+            <tr>
+                <td>Name</td>
+                <td>
+                    <input type="text"> <br>
+                    <label for="">Enter Your Name</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>
+                    <input type="email"> <br>
+                    <label for="">Enter Your Email</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td>
+                    <input type="password"> <br>
+                    <label for="">Enter Password</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td>
+                    <input type="text"> <br>
+                    <label for="">Address</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Country</td>
+                <td>
+                    <select name="" id="">
+                        <option value="">Pakistan</option>
+                        <option value="">Afghanistan</option>
+                        <option value="">India</option>
+                        <option value="" selected>China</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>
+                    <input type="radio" name="gen">
+                    <label for="">Male</label>
+                    <input type="radio" name="gen" id="">
+                    <label for="">Female</label>
+                </td>
+            </tr> 
+            <tr>
+                <td>Hobbies</td>
+                <td>
+                    <input type="checkbox">
+                    <label for="">Reading</label><br>
+                    <input type="checkbox">
+                    <label for="">Coding</label>
+                </td>
+            </tr>  
+            <tr>
+                <td>Website</td>
+                <td>
+                    <input type="url" placeholder="https://"> <br>
+                    <label for="">Address</label>
+                </td>
+            </tr>  
+            <tr>
+                <td>Other Information about you</td>
+                <td>
+                    <textarea name="" id="" rows="5" cols="20"></textarea><br>
+                </td>
+            </tr>
+            <tr>
+                <td> <input type="submit" value="Submit Report"> </td>
+                <td> <input type="reset" value="Erease Form"></td>
+            </tr>
+
+        </table>
+    </form>
+</body>
+</html>
