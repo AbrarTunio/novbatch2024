@@ -1,0 +1,24 @@
+h1{
+    text-align: center;
+    border: 1px solid maroon;
+    border-radius: 10px;
+    color : maroon;
+}
+
+p span{
+    color: green;
+}
+
+section{
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+a{
+    background-color: maroon;
+    color: beige;
+    border-radius: 10px;
+    padding: 5px;
+    text-decoration: none;
+}
