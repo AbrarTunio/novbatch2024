@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        *{
+            color: greenyellow;
+        }
+
+        .single{
+            color: orange;
+            border: 1px solid orange;
+
+        }
+        .double{
+            border: 1px solid orange;
+        }
+
+        body section{
+            background-color: black;
+        }
+        section{
+            border: 1px solid orange;
+            width: fit-content;
+            padding: 15px;
+        }
+
+        section h3,  section p{
+            padding: 0;
+            margin: 0;
+        }
+
+        section div{
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <h3>Login Form</h3>
+        <p class="double">Your credentials goes here!</p>
+        <form action="">
+            <div>
+                <label class="single" for="email">Email:</label><br>
+                <input id="email" type="email" placeholder="email">
+            </div>
+            <div>
+                <label class="single double" for="pass">Password:</label><br>
+                <input id="pass" type="password" placeholder="Enter password">
+            </div>
+            <div>
+                <input type="submit" value="Login">
+            </div>
+        </form>
+    </section>
+</body>
+</html>
