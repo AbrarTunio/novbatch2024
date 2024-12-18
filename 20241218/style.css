@@ -1,0 +1,23 @@
+section{
+    display: flex;
+    border: 1px solid red;
+    /* padding: 10px ; */
+    justify-content: space-evenly;
+    height: 400px;
+    align-items: center;
+}
+
+.child{
+    border: 5px solid orange;
+    width: 75px;
+    height: 75px;
+    transition: 1s;
+    text-align: center;
+}
+
+.child:hover{
+    background-color: black;
+    color: white;
+    transition: 1s;
+    border-radius: 50% ;
+}

@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        .portion{
-            border : 1px solid orange;
-            margin: 5px;
+        .child{
+            border: 1px solid green;
+            margin: 10px;
             width: 50%;
         }
 
         .parent{
-            border: 1px solid red;
+            border: 1px solid orangered;
             display: flex;
         }
     </style>
@@ -20,15 +20,9 @@
 <body>
     <h1>Flex Layout: Uni Directional</h1>
     <section class="parent">
-        <div class="portion">
-            This is portion One
-        </div>
-        <div class="portion">
-            This is portion Two
-        </div>
-        <div class="portion">
-            This is portion Three
-        </div>
+        <div class="child">Child One</div>
+        <div class="child">Child Two</div>
+        <div class="child">Child Three</div>
     </section>
 </body>
 </html>
