@@ -1,23 +1,23 @@
 section{
     display: flex;
-    border: 1px solid red;
-    /* padding: 10px ; */
+    border: 5px solid red;
+    padding: 10px ;
     justify-content: space-evenly;
-    height: 400px;
+    height: 600px;
     align-items: center;
 }
 
 .child{
     border: 5px solid orange;
-    width: 75px;
-    height: 75px;
-    transition: 1s;
+    width: 100px;
+    height: 100px;
+    transition: 2s;
     text-align: center;
 }
 
 .child:hover{
     background-color: black;
     color: white;
-    transition: 1s;
+    transition: 2s;
     border-radius: 50% ;
 }
