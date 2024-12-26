@@ -1,20 +1,16 @@
-.outerbox{
+.box {
     width: 400px;
     height: 400px;
     border: 2px solid orange;
-    margin-top: 100px;
-    border-radius: 10px;
     position: relative;
+    margin-top: 30px;
 }
 
-.innerbox{
-    width: 80px;
-    height: 80px;
+div{
+    width: 50px;
+    height: 50px;
     background-color: blueviolet;
-    position: fixed;
-    /* position: absolute; */
-    /* position: relative; */
-    left : 50px;
-    top: 200px;
-    border-radius: 10px;
+    /* position:absolute; */
+    position:sticky;
+    top: 100px;
 }

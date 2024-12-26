@@ -1,0 +1,43 @@
+.box{
+    border: 2px solid;
+    height: 1500px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottle{
+    width: 30px;
+    height: 80px;
+    background: #000;
+    position: absolute;
+    bottom: 0;
+}
+
+.two{
+   left:40px;
+   background-color: green;      
+}
+
+.four{
+    right: 40px;
+    background-color: red;
+}
+
+.five{
+    right: 0px;
+    background-color: rgb(3, 9, 66);
+}
+
+.floating{
+    width: 30px;
+    height: 80px;
+    background-image: url('https://picsum.photos/200');
+    position: sticky;
+    left: 210px;
+    top: 300px;
+}
+
+section{
+    height: 1500px;
+}
