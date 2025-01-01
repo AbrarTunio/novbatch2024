@@ -1,15 +1,27 @@
+html , *{
+    box-sizing: border-box;
+}
+
 .one{
     display: flex;
     justify-content: space-around;
+    border: 1px solid green;
+    height: 90vh;
+    align-items: center;
 }
 
 .left{
     width: 50%;
     padding:15px ;
+    border: 1px solid orangered;
+    height: 340px;
+    background-color: rgb(21, 35, 35);
+    border-radius: 10px;
+    position: relative;
 }
 
 .left p{
-    color: rgb(18, 14, 22);
+    color: rgb(184, 173, 196);
 }
 
 .left h3{
@@ -29,6 +41,7 @@
     width: 30%;
     overflow: hidden;
     border-radius: 10px;
+    height: 340px;
 }
 
 img{
@@ -48,4 +61,16 @@ a{
     color: white;
     text-decoration: none;
     background-color: orangered;
+}
+
+
+.circle
+{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 50%;
+    position:absolute;
+    right: -20px;
+    top: -30px;
 }
