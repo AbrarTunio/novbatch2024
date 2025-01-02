@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .wheel{
+            width: 50px;
+            height: 50px;
+            background-color: orange;
+            border-radius: 50%;
+            animation-name: wheel;
+            animation-duration: 2s;
+            animation-direction: alternate;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes wheel {
+            to{
+                margin-top:150px;
+                background-color: red;
+            }
+        }
+
+        /* desktop or initial layout */
+        section{
+            display: flex;
+            justify-content: space-around;
+        }
+        .box{
+            width: 40%;
+            border: 2px solid blueviolet;
+            border-radius: 10px;
+            height: 40vh;
+            overflow: hidden;
+        }
+
+        /* mobile layout */
+
+        @media (max-width : 600px) {
+            section {
+                display: block;
+            }
+            .box{
+                width: 90%;
+                margin: auto;
+                margin-top:20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <section>
+        <div class="box left">
+            <div class="wheel"></div>
+        </div>
+        <div class="box right"></div>
+    </section>
+</body>
+</html>
