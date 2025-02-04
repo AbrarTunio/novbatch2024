@@ -1,0 +1,11 @@
+.color-hover-red{
+ transition: 1s;
+}
+
+.color-hover-red:hover{
+ color: red;
+ border: 1px solid red;
+ border-radius: 10px;
+ transition: 1s;
+ font-size: 30px;
+}
